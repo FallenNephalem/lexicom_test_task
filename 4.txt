@@ -1,0 +1,3 @@
+SELECT city_name, name, city_id FROM customers JOIN cities ON customers.city_id = cities.id;
+SELECT city_name, name, city_id FROM customers LEFT OUTER JOIN cities ON customers.city_id = cities.id;
+SELECT city_name, name, city_id FROM customers RIGHT OUTER JOIN cities ON customers.city_id = cities.id;
